@@ -1132,7 +1132,7 @@ I (.\n32g45x_std_periph_driver\inc\n32g45x_wwdg.h)(0x5F8611BC)
 I (.\n32g45x_std_periph_driver\inc\n32g45x_xfmc.h)(0x5FA13A0F)
 I (.\n32g45x_std_periph_driver\inc\n32g45x_tsc.h)(0x5FA13A0F)
 I (.\n32g45x_std_periph_driver\inc\misc.h)(0x5F8611BC)
-F (.\src\main.c)(0x65CA231D)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\n32g45x_std_periph_driver\inc -I .\inc -I .\CMSIS\core -I .\CMSIS\device-I.\RTE\_Target_1-IC:\my_program\keil5\pack\Nationstech\N32G45x_DFP\1.0.1\firmware\CMSIS\device-IC:\my_program\keil5\core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DN32G45X -DN32G455 -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\src\main.c)(0x66632609)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\n32g45x_std_periph_driver\inc -I .\inc -I .\CMSIS\core -I .\CMSIS\device-I.\RTE\_Target_1-IC:\my_program\keil5\pack\Nationstech\N32G45x_DFP\1.0.1\firmware\CMSIS\device-IC:\my_program\keil5\core\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DN32G45X -DN32G455 -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\inc\main.h)(0x5F8611BC)
 I (.\CMSIS\device\n32g45x.h)(0x5FA13A0F)
 I (.\CMSIS\core\core_cm4.h)(0x5F8611BC)

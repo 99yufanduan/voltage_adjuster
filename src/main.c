@@ -42,7 +42,7 @@ TIM_TimeBaseInitType TIM_TimeBaseStructure;
 OCInitType TIM_OCInitStructure;
 uint16_t CCR1_Val       = 40;
 uint16_t CCR2_Val       = 50;
-uint16_t CCR3_Val       = 50;
+uint16_t CCR3_Val       = 927;
 uint16_t CCR4_Val       = 80;
 uint16_t PrescalerValue = 0;
 
@@ -79,7 +79,7 @@ int main(void)
     /* Compute the prescaler value */
     PrescalerValue = (uint16_t)(SystemCoreClock / 24000000) - 1;
     /* Time base configuration */
-    TIM_TimeBaseStructure.Period    = 100;
+    TIM_TimeBaseStructure.Period    = 1000;
     TIM_TimeBaseStructure.Prescaler = PrescalerValue;
     TIM_TimeBaseStructure.ClkDiv    = 0;
     TIM_TimeBaseStructure.CntMode   = TIM_CNT_MODE_UP;
